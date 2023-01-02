@@ -191,7 +191,7 @@ public class NewMainActivity extends AppCompatActivity {
     }
 
     public void showTrigoOnScreen(View view){
-        if (resultScreen.getText().length()==0)
+        if (screen.getText().length()==0)
             showOnScreen(view);
     }
 
@@ -200,7 +200,7 @@ public class NewMainActivity extends AppCompatActivity {
         double result = 0.0;
 
         if (values[3].equals("o"))
-            angle = Math.toRadians(parseFloat(values[1]));
+            angle = Math.toRadians(parseFloat(values[2]));
 
         switch (values[1]){
             case "cos":
